@@ -1,72 +1,72 @@
 # Tivuco
-Jogo desktop de luta no estilo Brawler mult-jogador, com capacidade para até 4 pessoas jogando simultaneamente com joysticks ou teclado.
+Prototype of a desktop local multiplayer brawler game, with capacity up to 4 people playing simultaneously with gamepad or keyboard
 
-# Comandos Teclado
-confirmar - enter  
-voltar - F1  
-andar - seta direcional esquerda e direita  
-pular - espaço  
-ativar/desativar mira - R  
-rotacionar mira - seta direcional cima e baixo  
-primeira habilidade - Q  
-segunda habilidade - W  
-terceira habilidade - E  
-fechar jogo - esc  
+# Keyboard Commands
+Confirm - enter  
+Back - F1  
+Walk - left and right arrow
+Jump - espace  
+Activate/Deactivate Aim - R  
+Rotate Aim - up and down arrow 
+First Hability - Q  
+Second Hability - W  
+Third Hability - E  
+Close Game - esc  
 
-# Comandos Joystick
-confirmar - start  
-voltar - B  
-andar - left thumbstick  
-pular - A  
-ativar/desativar mira - right thumbstick click  
-rotacionar mira - right thumbstick  
-primeira habilidade - RB  
-segunda habilidade - RT  
-terceira habilidade - LB  
-fechar jogo - back  
+# GamePad Commands
+Confirm - start  
+Back - B  
+Walk - left thumbstick  
+Jump - A  
+Activate/Deactivate Aim - right thumbstick click  
+Rotate Aim - right thumbstick  
+First Hability - RB  
+Second Hability - RT  
+Third Hability - LB  
+Close Game - back  
 
 
-# Habilidades de cada personagem
+# Characters Skills
 
 <b>Dwarf</b>  
-primeira habilidade:  
-Arremessa uma cerveja que gira no ar em movimento óbliquo que tira 40 pontos de vida caso acerte algum outro jogador ou desaparece ao atingir algum obstáculo. Gasta 25 pontos de magia para utilizar.  
+First Skill:  
+Throws up a beer can which spins through the air in an oblique movement and takes 40 hp case it hits any opponent or desappears when it hits an obstacle. Costs 25 mp to use.  
   
-segunda habilidade:  
-Fuma um cigarro e recupera 25 pontos de magia. A cada 25 pontos de magia a menos do total, dwarf ganha um ponto a mais em sua velocidade de movimento.  
+Second Skill:  
+Smokes a cigarrette and restore 25 mp. Each 25 less mp from dwarf's total mp he increases his movement speed.  
   
-terceira habilidade:  
-Primeiro bebe sua cachaça para que possa ganhar pontos de poder. Ao terminar de beber, acende um isqueiro podendo cuspir fogo em seus oponentes, tirando 2 de dano a cada frame passado que esteja atingindo quaisquer inimigo. Gasta 0,5 pontos de magia por frame para ganhar pontos de poder (máximo 25 pontos de poder ganhos por vez) e 1 ponto de poder por frame ao soltar o fogo.  
+Third Skill:  
+First he drinks his cachaça so he can gain some skill points. When he finishes drinking, dwarf lights up a lighter so he can spit fire into his opponents, which takes 2 hp damage on each frame passed by if it hits any opponent. Costs 0.5 mp per frame to gain skill points (25 max) and 1 skill point per frame when it's spitting fire.  
   
   
 <b>Goat</b>   
-primeira habilidade:  
-Lança um “símbolo de inacessibilidade à internet do Windows”, que ressalta ao atingir algum obstáculo ou causa 20 de dano caso acerte algum inimigo. Gasta 25 pontos de magia.  
+First Skill:  
+Throws up a "internet connection block" which bounces when it hits an obstacle or take 20 hp and desappears case it hits an opponent. Costs 25 mp.  
   
-segunda habilidade:  
-Goat se apaixona, e após alguns segundos fica invisível. Após 4 segundos ou caso aperte novamente o botão da segunda habilidade, ele reaparece causando 40 de dano caso esteja perto à algum adversário. Gasta 50 pontos de magia.  
+Second Skill:  
+Goat falls in love, and after a while becomes invisible for 4 seconds or if it presses the second skill button again. On his reappearance he takes 40 hp of any opponent nearby. Costs 50 mp.  
   
-terceira habilidade:  
-Após 5 segundos, Goat “muda as rotas” de cada adversário presente na partida, teleportando-os para um lugar aleatório no mapa. Gasta 50 pontos de magia.  
+Third Skill:  
+After 5 seconds, Goat teleports each opponent from the map to a random place. Costs 50 mp.  
   
   
 <b>Dove</b>   
-primeira habilidade:  
-Lança um garfo giratório que cai no chão ao bater em algum obstáculo. Causa 30 de dano ao atingir algum jogador. Caso o garfo encontre-se no chão, Dove pode ou usar sua primeira habilidade para recuperá-lo de volta gastando 80 pontos de magia, ou ir pegá-lo sem nenhum custo.  
+First Skill:  
+Throws up a spinning fork which falls to the ground if it hits any obstacle or takes 30 hp from any opponent it hits. Case the fork it's on the ground, Dove can use her first skill so she can take it back from wherever she is, but this action has a cost of 80 mp. She can take it back from the ground without any cost by simply passing by on where the fork stands.  
   
-segunda habilidade:  
-Dove passa um tempo comendo um sanduíche. Após terminar de comer, ganha 1 ponto de poder e 5 pontos de vida, podendo ter no máximo 4 pontos de poder. Gasta 25 pontos de magia.  
+Second Skill:  
+Dove spend some time eating a sandwich. When she finishes eating, she gains 1 skill point (4 max) and 5 hp. Costs 25 mp.  
   
-terceira habilidade:  
-Dove deposita um excremento no chão podendo ter o total de até 6 no mapa por partida. O excremento permanece lá até algum inimigo passar por ele, perdendo pontos de vida gradativamente até chegar a 60 pontos negativos. Gasta 50 pontos de magia e 1 pontos de poder.  
+Third Skill:  
+Dove takes a little poo on the floor (6 max on the map). The poo remains there untill any opponent passes through it, which causes a poison effect and decreasing until it loses 60 hp. Costs 50 mp and 1 skill point.  
   
   
 <b>Skinny</b>   
-primeira habilidade:  
-Skinny lança um raio de energia circular com a capacidade de ultrapassar obstáculos. Tira 20 de dano ao atingir algum oponente. Gasta 20 pontos de magia.  
+First Skill:  
+Skinny throws up an circled energy ray which can pass through obstacles. Takes 20 hp case it hits any opponent. Costs 20 mp.  
   
-segunda habilidade:  
-Skinny se teleporta numa distância de 100 pixels. Gasta 75 pontos de magia.  
+Second Skill:  
+Skinny teleports herself in a range of 100 pixels towards the direction she's aiming. Costs 75 mp.   
   
-terceira habilidade:  
-Skinny entra em uma nave espacial sendo capaz de flutuar e atirar para baixo. Cada tiro remove 35 pontos de vida em cada personagem atingido e desaparece caso acerte algum obstáculo. Gasta 0,7 pontos de magia a cada movimento dado e 7 pontos de magia a cada tiro.
+Third Skill:  
+Skinny enters her spaceship being able to float and shoot lasers to the ground. Each shoot takes 35 hp to any opponent hit. Costs 0.7 mp to each movement made and 7 mp to each shoot.
